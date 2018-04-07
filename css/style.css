@@ -1,0 +1,39 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.resp-img
+{
+  max-width: 100%;
+  height: auto;
+}
+.nav-icon
+{
+  width: 45px;
+  height: 33px;
+  background-image: url(../img/menu.png);
+  border: none;
+  box-shadow: none;
+  background-size: cover;
+}
+.header
+{
+  padding: 10px 15px;
+}
+nav
+{
+   display: none;
+ }
+
+@media only screen and (min-width: 64em) {
+  nav
+  {
+    display: inline-block;
+  }
+  .nav-icon
+  {
+    display: none;
+  }
+}
